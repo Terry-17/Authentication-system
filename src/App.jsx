@@ -1,7 +1,7 @@
 import React from "react";
 import AuthProvider from "./AuthContext";
-import ProtectedRoute from "./components/protectedRoute";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProtectedRoute from "./components/ProtectedRoute"
 
 const App = () => {
   window.onload = () => {
