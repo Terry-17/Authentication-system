@@ -3,8 +3,8 @@ import { Route, Routes, Navigate } from "react-router-dom";
 import Login from "../pages/Login";
 import { AuthContext } from "../AuthContext";
 import Dashboard from "../pages/Dashboard";
-import Navbar from "./navbar";
 import Profile from "../pages/Profile";
+import Navbar from "./Navbar"
 
 const ProtectedRoute = () => {
   const { user } = useContext(AuthContext);
